@@ -1,38 +1,188 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.x1{
+  width: 99vw;
   min-height: 100vh;
+  background-color: antiquewhite;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding-top: 15vh;
+  padding-bottom: 10vh;
+}
+.x2{
+  width: 55%;
+  min-height: 100vh;
+  background-color: white;
+  /* margin-top: 10vh;
+  margin-bottom: 10vh; */
+  border-radius: 3vh;
+  /* align-items: center; */
+  padding: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+.x2 img{
+  width: 95%;
+  border-radius: 3vh;
+  /* margin-top: 5vh;
+  margin-left: 2.5%; */
+}
+.x2 h1,p{
+  /* padding: 2vh; */
+  margin: 3vh;
+}
+.x3{
+  
+  padding: 3vh;
+  padding-top: 2vh;
+  background-color: rgb(252, 234, 252);
+  border-radius: 3vh;
+  /* margin: 5vh; */
+  margin: 2vh;
+}
+.x3 p{
+  color: rgb(160, 89, 160);
+  font-weight: bold;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.x4{
+  padding-left: 5vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.x5{
+  margin-top: 5vh;
+  padding: 3vh;
+}
+.x5 h4{
+  font-size: 3.5vh;
+  font-weight: 500;
+  
+}
+.x6{
+  padding-top: 2vh;
+  padding-left: 3vh;
+}
+.x6 li{
+  margin: 1vh;
+  font-size: 2.5vh;
+  font-weight: 300;
+}
+.x2 hr{
+  color: gray;
+  width: 98%;
+  margin-left: 1vh;
+}
+
+
+.x7{
+  padding: 3vh;
+}
+.x7 h4{
+  font-size: 3.5vh;
+  font-weight: 500;
+  
+}
+.x8{
+  padding-top: 2vh;
+  padding-left: 3vh;
+}
+.x8 li b{
+  font-size: 2.5vh;
+  font-weight: 500;
+}
+.x8 li{
+  margin: 1vh;
+  font-size: 2.5vh;
+  font-weight: 300;
+}
+
+.x9{
+  padding: 3vh;
+}
+.x9 h4{
+  font-size: 3.5vh;
+  font-weight: 500;
+  
+}
+.x9 p{
+  margin:0 ;
+  padding: 1vh;
+}
+.x9 div{
+  display: flex;
+  justify-content: space-around;
+  color: rgb(69, 68, 68);
+}
+.x1 p span{
+  color: blue;
+  text-decoration: underline;
+}
+h1{
+  font-family: "Outfit", sans-serif;
+}
+/* h4{
+  font-family: "Young Serif", serif;
+} */
+p,li{
+  
+ 
+  font-family: "Young Serif", serif;
+  font-weight: lighter;
+  color: rgb(84, 83, 83);
+}
+.x4 li b ,.x8 li b{
+  color: black;
+  font-size: 2.5vh;
+  font-weight: 200;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+  .x1{
+    padding: 2vh;
+    
   }
-  to {
-    transform: rotate(360deg);
+  .x2{
+    padding: 2vh;
+    margin-top: 2vh;
+    width: 90%;
+  }
+  .x2 div h1{
+  font-size: 4vh;
+  }
+  p{
+    font-size: vh;
+  }
+}
+/* @media screen and (min-width: 600px; &&  max-width:768px;) */
+@media only screen and (min-width: 501px) and (max-width: 1023px) {
+  /* Your CSS code here */
+  .x1{
+    padding: 5vh;
+    /* padding-top: 2vh;
+    padding-bottom: 2vh; */
+  }
+  .x2{
+    padding: 5vh;
+    margin-top: 7vh;
+    width: 90%;
+  }
+  .x2 div h1{
+  font-size: 4vh;
+  }
+  p{
+    font-size: vh;
   }
 }
